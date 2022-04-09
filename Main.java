@@ -1,22 +1,19 @@
-package myPackage;
+package mypackage;
 
 public class Main {
     public static void main(String[] args) {
-        int x = 10 , y = 10;
-        if (++x > 11 & ++y <10 ){
-            x++;
-        }else {
-            y++;
-        }
-        System.out.println (x + " " + y);
+        Origin ow = new Origin (  );
+        ow.setBread ();
+     ow.setAge ();
+        System.out.println ("Dog name is" + ow.setName ());
+      ow.setTypes (  );
+      ow.getClass ();
+      Origin.getSeller ();
+       Origin.getSeller ("Arvind");
 
-        x= 10 ; y = 10;
 
-         if (++x > 11 && ++y <10){
-             x++;
-         }else {
-             y++;
-         }
-        System.out.println (x + " " + y );
+
+
+
     }
 }
